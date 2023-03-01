@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tsc",
+    "test": "vitest run",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build"
   },
   "keywords": [],
   "author": "brunozampieri1985",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.14.2",
-    "typescript": "^4.9.5"
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.2"
   }
 }
