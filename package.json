@@ -1,11 +1,11 @@
 {
   "name": "@brunozampieri1985/alore-react-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "index.d.ts",
-  "private":"false",
+  "private": "false",
   "repository": "https://github.com/brunozampieri1985/alore-react-components",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
