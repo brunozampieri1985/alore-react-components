@@ -16,7 +16,7 @@
   },
   "keywords": [],
   "author": "brunozampieri1985",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "@types/node": "^18.14.2",
