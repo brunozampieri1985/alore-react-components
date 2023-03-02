@@ -1,5 +1,0 @@
----
-"@brunozampieri1985/alore-react-components": patch
----
-
-Second try
